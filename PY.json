@@ -28,7 +28,7 @@
 {"key": "dr_大豆影院","name": "👽大豆影院","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "https://raw.iqiq.io/alantang1977/dr_py/master/js/大豆.js"},
 {"key": "csp_XBPQ秋霞影视","name": "️🍂┃秋霞┃影视","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"分类":"电影$1#连续剧$2#动漫$4#综艺$3","分类url":"https://www.qiuxia360.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;val","跳转播放链接": "https://www.jfxz689.com/?url=+vod_class*url\":\"&&\"+&tm=+\"tm\":&&,+&key=+\"key\"*\"&&\"","二次跳转播放链接": "https://www.jfxz689.com/API.php;post;url=+\"url\"*\"&&\"+&time=+\"time\"*\"&&\"+&key=+\"key\"*\"&&\"","三次跳转播放链接": "\"url\"*\"&&\""}},
 {"key":"dr_布雷蓝光","name":"💥SP┃布雷影视(官源)","type":3,"api":"https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"https://gitee.com/alanchaotang/data/raw/master/js/%E5%B8%83%E9%9B%B7%E8%93%9D%E5%85%89.js"},
-{"key":"dr_百忙无果","name":"🍓SP┃芒果TV(官源)","type":3,"api":"https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable":2,"quickSearch":0,"filterable": 1,"ext": "https://gitee.com/alanchaotang/data/raw/master/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js"},
+{"key":"dr_百忙无果","name":"🥭SP┃芒果TV(官源)","type":3,"api":"https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable":2,"quickSearch":0,"filterable": 1,"ext": "https://gitee.com/alanchaotang/data/raw/master/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js"},
 {"key":"dr_360影视","name":"💫SP┃360影视(官源)","type":3,"api":"https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/main/js/360%E5%BD%B1%E8%A7%86.js"},
 {"key":"drpy_js_奇珍异兽","name":"🐨┃爱奇艺(官源)","type":3,"api":"https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","ext":"https://gitee.com/alanchaotang/data/raw/master/js/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js"},
 {"key": "dr_腾云驾雾","name": "🐧SP┃腾讯视频(官源)","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "https://gitee.com/alanchaotang/data/raw/master/js/v.qq.js"},
@@ -53,7 +53,7 @@
 {"key": "dr_小狗影院","name": "🐶┃小狗影院","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "https://raw.iqiq.io/alantang1977/dr_py/master/js/小狗影院.js"},
 {"key": "csp_XYQH追兔","name": "🐜┃追兔影院","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/main/json/%E8%BF%BD%E5%85%94.json","jar":"https://gitee.com/alanchaotang/data/raw/master/jar/xo.jar"},
 {"key": "csp_XYQH野马","name": "️🌸┃野马影视","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/main/json/%E9%87%8E%E9%A9%AC.json","jar":"https://gitee.com/alanchaotang/data/raw/master/jar/xo.jar"},
-{"key": "csp_xBPQ_HDIK","name": "🐹┃HDIK","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitee.com/alanchaotang/data/raw/master/js/HDIK.json"},
+{"key": "csp_xBPQ_HDIK","name": "☘️┃HDIK","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitee.com/alanchaotang/data/raw/master/js/HDIK.json"},
 {"key": "快播","name": "💫┃快播影视","type": 1,"api": "https://www.kuaibozy.com/api.php/provide/vod/","searchable": 1,"filterable": 0,"switchable": 1,"categories":["动漫","国产剧","日韩剧","港台剧","欧美剧","泰剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","综艺"]},
 {"key": "csp_xBPQ_FreeOK","name": "🐹┃FreeOK","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext":"https://gitee.com/alanchaotang/data/raw/master/js/FreeOK.json","jar":"https://gitee.com/alanchaotang/data/raw/master/jar/XBPQ0111.jar"},
 {"key": "dr_007影视","name": "🍆┃零零七影视","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "https://raw.iqiq.io/alantang1977/X/main/js/007影视.js"},
@@ -65,6 +65,8 @@
 {"key": "dr_飞兔影视","name": "🐟┃飞兔影视","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/X/main/js/飞兔影视.js"},
 {"key": "dr_B站影视","name": "🌺┃B站影视","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "https://gitcode.net/alantang77/drpy/-/raw/master/js/B%E7%AB%99%E5%BD%B1%E8%A7%86.js"},
 {"key": "dr_大师兄","name":"🏃┃大师兄影视","type":3,"api":"https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"https://gitcode.net/alantang77/drpy/-/raw/master/js/%E5%A4%A7%E5%B8%88%E5%85%84%E5%BD%B1%E8%A7%86.js"},
+{"key": "dr_冷曦影视","name":"🧊┃冷曦影视","type":3,"api":"https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/%E5%86%B7%E6%9B%A6%E5%BD%B1%E8%A7%86.js"},
+
 ##drpy听书系列
 {"key": "dr_喜马拉雅","name": "🏇┃喜马拉雅听书","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/js/喜马拉雅.js"},
 {"key": "dr_六月听书","name": "🎃┃六月听书","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/js/六月听书.js"},
@@ -74,7 +76,9 @@
 {"key": "dr_听书网","name": "🎒┃听书网","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/js/听书网.js"},
 {"key": "dr_幻听网听书","name": "⛑️┃幻听网听书","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/js/幻听网听书.js"},
 {"key": "dr_有声小说","name": "🧵┃有声小说","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/js/有声小说吧.js"},
-
+{"key": "dr_banan","name": "🍌┃banan","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/txt/js/18/banan.js"},
+{"key": "dr_养端","name": "🍌┃养端","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/txt/js/18/养端.js"},
+{"key": "dr_18","name": "🍌┃18","type": 3,"api": "https://raw.iqiq.io/alantang1977/dr_py/master/libs/drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext":"https://raw.iqiq.io/alantang1977/dr_py/master/txt/js/18/18av.js"},
 {"key":"csp_Anime1","name":"📯SP┃日本动漫","type":3,"api":"csp_Anime1","searchable":1,"quickSearch":1,"filterable":1}],
 
 //"wallpaper" : "http://刚刚.live/图",

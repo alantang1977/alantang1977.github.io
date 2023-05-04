@@ -1,14 +1,38 @@
 {"urls": [
 {
-"url": "https://ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/master/X.json",
+"url": "https://agit.ai/alanchaotang/if/raw/branch/main/X.json",
+"name": "🚕┃Alan(agit.ai)┃🚕"
+},
+{
+"url": "http://饭太硬.ga/tv",
+"name": "🍀饭太硬🍀"
+},
+{
+"url": "https://ghproxy.net/raw.githubusercontent.com/52670576/tvbox/main/ysc.json",
+"name":"🚓运输车🚓"
+},
+{
+"url": "http://我不是.肥猫.love:63/接口禁止贩卖",
+"name": "💐肥猫💐"
+},
+{
+"url": "https://yydsys.top/duo",
+"name": "🎈大聪明应用多多🎈"
+},
+{
+"url": "http://tv.lengniuge.ga/yingshi",
+"name":"🐄┃楞牛哥┃🐄"
+},  
+{
+"url": "https://ghproxy.net/https://raw.githubusercontent.com/alantang1977/X/master/X.json",
 "name": "🏀┃帅汤┃X🏀"
 },
 {
-"url": "https://alantang1977.github.io/X.json",
-"name": "🤶┃AlanTang┃🤶"
+"url": "https://gitee.com/alanchaotang/data/raw/master/X.bmp",
+"name": "🤶┃Alan(gitee)┃🤶"
 },
 {
-"url": "https://ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/master/PY.json",
+"url": "https://ghproxy.net/https://raw.githubusercontent.com/alantang1977/X/master/PY.json",
 "name": "💆‍♂️┃靓仔┃PY💆‍"
 },
 {
@@ -16,21 +40,24 @@
 "name": "🌀┃XC┃🌀"
 },
 {
-"url": "http://饭太硬.ga/tv",
-"name": "🍀饭太硬🍀"
+"url": "https://ghproxy.net/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+"name":"🎁FongMi🎁"
 },
 {
-"url": "http://我不是.肥猫.love:63/接口禁止贩卖",
-"name": "💐肥猫💐"
+"url": "https://ghproxy.net/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
+"name":"🎁FongMi 9+9🎁"
+},
+{"url": "https://notabug.org/yzzsjc/TVBox-Pro/raw/master/Hk/XYQTVBox.txt",
+"name":"☣️海阔线路☣️"
 },
 {
-"url": "https://gitee.com/lekanbox/ysc/raw/master/ysc.json",
-"name":"🚓运输车🚓"
+"url": "https://yydsys.top/duo/ali",
+"name": "🚀阿里精品专线"
 },
 {
-"url": "https://yydsys.top/duo",
-"name": "🎈大聪明🎈"
-},
+"url": "https://framagit.org/lzk23559/TVRule/-/raw/main/XYQTVBox.json",
+"name": "🚀香雅情线路"
+}, 
 {
 "url": "http://s.nxw.so/vip",
 "name": "🍺潇洒☘️🍺"
@@ -40,7 +67,11 @@
 "name": "🖼️龙门影视🖼️"
 },
 {
-"url": "https://ghproxy.com/https://raw.githubusercontent.com/Tangsan99999/-/master/newtang.bmp",
+ "url": "https://yydsys.top/duo/lm.json",
+"name": "🚀龙门线路"
+},     
+{
+"url": "http://tvbo.run.goorm.site/tangs.json",
 "name": "🍇唐三🍇"
 },
 {
@@ -52,10 +83,6 @@
 "name": "🗽菜妮丝🗽"
 },
 {
-"url": "https://yydsys.top/duo",
-"name": "🌎应用多多🌎"
-},
-{
 "url": "https://pastebin.com/raw/5NHaxyGR",
 "name": "🍃道长🍃"
 },
@@ -64,8 +91,8 @@
 "name": "🌳霜辉月明🌳"
 },
 {
-"url": "http://101.34.67.237/config/2",
-"name": "☘️小雅☘️"
+"url": "http://101.34.67.237/config/1",
+"name": "🅰小雅🅰"
 },
 {
 "url": "http://pandown.pro/tvbox/tvbox.json",
@@ -156,8 +183,8 @@
 "name": "🅾94费纸"
 },
 {
-"url": "http://52bsj.vip:81/api/v3/file/get/29899/box2.json?sign=3cVyKZQr3lFAwdB3HK-A7h33e0MnmG6lLB9oWlvSNnM%3D%3A0",
-"name": "🆗月光宝盒"
+"url": "https://la.kstore.space/download/2883/0110.txt",
+"name": "🐹蚂蚁论坛线路"
 },
 {
 "url": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/甜蜜.json",
@@ -166,10 +193,6 @@
 {
 "url": "http://52bsj.vip:81/api/v3/file/get/46060/Tv%20box%E6%BA%902.txt?sign\u003dyI8sCYT8pei-pxp1_xwLjWOfepQ9b7c1y6Q_QD_0RY4%3D%3A0",
 "name": "🅾兽爪"
-},
-{
-"url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
-"name": "🆙南风"
 },
 {
 "url": "https://maoyingshi.cc/tvbox/云星日记/1.m3u8",
@@ -186,6 +209,14 @@
 {
 "url": "https://神器每日推送.tk/pz.json",
 "name": "🥫神器每日推送🥫"
+},
+{
+"url": "http://52bsj.vip:98/wuai",
+"name": "🐹吾爱线路"
+},
+{
+"url": "https://源享家.ml/45127",
+"name": "🐹源享家线路"
 }
 ]
 }

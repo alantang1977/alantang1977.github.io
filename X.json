@@ -33,6 +33,7 @@
 //{"key": "dr_好趣网","name":"📺┃电视┃直播","type":3,"api":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/js/好趣网.js"},
 //{"key": "直播转点播","name": "🐼┃电视┃直播","type": 3,"searchable": 0,"api": "https://agit.ai/alanchaotang/if/raw/branch/main/js/live2vod.js","ext": "https://agit.ai/alanchaotang/if/raw/branch/main/js/feimaolive.json"},
 {"key": "阿里夸克配置","name": "🐧┃阿里夸克配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"style": {"type": "rect","ratio": 1},"ext":"https://agit.ai/alanchaotang/if/raw/branch/main/pg/lib/tokenm.json","jar":"https://agit.ai/alanchaotang/if/raw/branch/main/jar/pg.nogo.jar;md5;98a126d121484c6bf04ca32e5304efca"},
+
 	
 ##高清4K系列
 //{"key":"[T4]荐片","name":"🚧┃俊俊┃荐片","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1},
@@ -49,7 +50,7 @@
 //{"key":"Hdhive","name":"🥇┃阿里┃影巢","type":3,"api":"csp_Hdhive","ext":"./lib/token.txt$$$","jar":"https://agit.ai/alanchaotang/if/raw/branch/main/jar/pg.nogo.jar;md5;98a126d121484c6bf04ca32e5304efca"},
 {"key":"csp_kuaikan","name":"🍈┃快看┃影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"ext":"","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;04180CE2616B3C901C95931E45F7FB73"},
 //{"key":"kkys","name":"👁️┃快看┃影视","type":3,"api":"https://agit.ai/alanchaotang/if/raw/branch/main/cat/kkys_open.js"},	
-	
+{"key":"电影","name":"🗽┃电影┃App","type":3,"api":"csp_AppSK","searchable":1,"quickSearch":1,"changeable":1,"ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn"},	
 {"key": "加速","name": "🐰┃加速┃影视","type": 3,"jar": "http://luoye.shop/b.jar;md5;bb155c3f0133bbce4756ad52003f5968","api": "csp_AppYs","searchable": 1,"quickSearch": 1,"ext": "http://m.hhssyyss.icu/ruifenglb_api.php/v1.vod"},
 {"key":"csp_Auete","name":"🐼┃Auete┃影视","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
 {"key": "迪迪","name": "🌈┃迪迪┃追剧","api": "csp_AppYsV2","type": 3,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://api123.adys.app/xgapp.php/v3/"},
@@ -263,6 +264,7 @@
 {"key":"csp_Aid","name":"🚑┃急救指南","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"style": { "type": "rect", "ratio": 3.8},"jar":"https://qu.ax/dDSz.jpg;md5;510FA1663F7067BD4D40DE06097202BF"},	
 
 ##dr_js系列
+{"key":"996影视","name":"👁️┃996影视┃🦁","type":3,"viewType": 1,"api":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/js/369影视"},
 {"key":"饭团","name":"🍚┃饭团影视┃🦁","type":3,"viewType": 1,"api":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/js/饭团影视.jsd"},
 {"key":"阿布","name":"🪖┃阿布影院┃🦁","type":3,"viewType": 1,"api":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/js/阿布影院.js"},
 {"key":"刺桐","name":"🦔┃刺桐影院┃🦁","type":3,"viewType": 1,"api":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/js/刺桐[V2].jsd"},
@@ -375,7 +377,7 @@
 //"wallpaper": "http://img.fongmi.eu.org",
 "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 //"wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
-"spider":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;3a1219034ed657f925c606543689b8cf",
+"spider":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;58adbd51a4bbed437f442e4e9a4c85c2",
 //"spider": "https://agit.ai/alanchaotang/if/raw/branch/main/jar/pg.nogo.jar;md5;98a126d121484c6bf04ca32e5304efca",
 //"wallpaper":"http://饭.eu.org/深色壁纸/api.php",
 //"spider":"https://agit.ai/alanchaotang/if/raw/branch/main/jar/tang.jar;md5;bace77c91270566ca6a959b935efbd0d", 

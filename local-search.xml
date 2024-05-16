@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>《刺客信条：影》 全球首支CG预告</title>
+    <link href="/2024/05/16/%E6%B5%8B%E8%AF%95%E7%94%B5%E5%BD%B1%E9%A2%84%E5%91%8A%E7%89%88%E5%8F%91%E5%B8%83/"/>
+    <url>/2024/05/16/%E6%B5%8B%E8%AF%95%E7%94%B5%E5%BD%B1%E9%A2%84%E5%91%8A%E7%89%88%E5%8F%91%E5%B8%83/</url>
+    
+    <content type="html"><![CDATA[<p>公元1467年，战争的火焰在日本开始蔓延。至此，长达100多年的日本战国时代正式拉开序幕。接连的战乱导致群雄并起，祸乱不断，直至一道黑影划破长夜，黎明的曙光终于照耀大地，人们也迎来久违的光明…… </p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1554585606&bvid=BV1r1421q7dc&cid=1546232501&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+      <tag>Alan</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于猫影视源制作教程</title>
     <link href="/2024/05/15/cattv/"/>
     <url>/2024/05/15/cattv/</url>
@@ -29,7 +50,7 @@
     <link href="/2024/05/15/Hexo&amp;Git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <url>/2024/05/15/Hexo&amp;Git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     
-    <content type="html"><![CDATA[<h1 id="Hexo-常用命令"><a href="#Hexo-常用命令" class="headerlink" title="Hexo 常用命令"></a>Hexo 常用命令</h1><h2 id="hexo-new-“name”-新建文章"><a href="#hexo-new-“name”-新建文章" class="headerlink" title="hexo new “name”       # 新建文章"></a>hexo new “name”       # 新建文章</h2><p>hexo new page “name”  # 新建页面<br>hexo g                # 生成页面<br>hexo d                # 部署<br>hexo g -d             # 生成页面并部署<br>hexo s                # 本地预览<br>hexo clean            # 清除缓存和已生成的静态文件<br>hexo help             # 帮助</p><h1 id="Git命令合集"><a href="#Git命令合集" class="headerlink" title="Git命令合集"></a>Git命令合集</h1><p>查看git对应的远程仓库地址：</p><p>git remote -v </p><p>删除关联对应的远程仓库地址：</p><p>git remote rm origin </p><p>查看是否删除成功，如果没有任何返回结果，表示OK</p><p>git remote -v</p><p>重新关联git远程仓库地址：</p><hr><p>git remote add origin <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a> </p><p>deploy:<br>type: git<br>repo: <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a><br>branch: master</p><p>deploy:<br>  type: git<br>  repo: <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;</a>:alantang1977&#x2F;alantang1977.git<br>  branch: main</p><hr><h2 id="安装Hexo主题"><a href="#安装Hexo主题" class="headerlink" title="安装Hexo主题"></a>安装Hexo主题</h2><hr><p>安装 next 主题<br>在git上克隆主题文件<br>git clone <a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a> themes&#x2F;next</p><p>在站点目录下的配置文件_config.yml 中找到以下部分，并修改。<br>theme: next  #选择博客主题，名字为themes中选择的主题文件夹名称</p><hr>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hexo-常用命令"><a href="#Hexo-常用命令" class="headerlink" title="Hexo 常用命令"></a>Hexo 常用命令</h1><h2 id="hexo-new-“name”-新建文章"><a href="#hexo-new-“name”-新建文章" class="headerlink" title="hexo new “name”       # 新建文章"></a>hexo new “name”       # 新建文章</h2><p>hexo new page “name”  # 新建页面<br>hexo g                # 生成页面<br>hexo d                # 部署<br>hexo g -d             # 生成页面并部署<br>hexo s                # 本地预览<br>hexo clean            # 清除缓存和已生成的静态文件<br>hexo help             # 帮助</p><h1 id="Git命令合集"><a href="#Git命令合集" class="headerlink" title="Git命令合集"></a>Git命令合集</h1><p>查看git对应的远程仓库地址：</p><p>git remote -v </p><p>删除关联对应的远程仓库地址：</p><p>git remote rm origin </p><p>查看是否删除成功，如果没有任何返回结果，表示OK</p><p>git remote -v</p><p>重新关联git远程仓库地址：</p><hr><p>git remote add origin <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a> </p><p>deploy:<br>type: git<br>repo: <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a><br>branch: master</p><p>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#98;&#46;&#x63;&#111;&#x6d;</a>:alantang1977&#x2F;alantang1977.git<br>  branch: main</p><hr><h2 id="安装Hexo主题"><a href="#安装Hexo主题" class="headerlink" title="安装Hexo主题"></a>安装Hexo主题</h2><hr><p>安装 next 主题<br>在git上克隆主题文件<br>git clone <a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a> themes&#x2F;next</p><p>在站点目录下的配置文件_config.yml 中找到以下部分，并修改。<br>theme: next  #选择博客主题，名字为themes中选择的主题文件夹名称</p><hr>]]></content>
     
     
     

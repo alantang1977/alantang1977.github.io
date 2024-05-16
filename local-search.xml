@@ -14,9 +14,9 @@
     
     <tags>
       
-      <tag>Hexo</tag>
-      
       <tag>Alan</tag>
+      
+      <tag>Tang</tag>
       
     </tags>
     
@@ -50,7 +50,7 @@
     <link href="/2024/05/15/Hexo&amp;Git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <url>/2024/05/15/Hexo&amp;Git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     
-    <content type="html"><![CDATA[<h1 id="Hexo-常用命令"><a href="#Hexo-常用命令" class="headerlink" title="Hexo 常用命令"></a>Hexo 常用命令</h1><h2 id="hexo-new-“name”-新建文章"><a href="#hexo-new-“name”-新建文章" class="headerlink" title="hexo new “name”       # 新建文章"></a>hexo new “name”       # 新建文章</h2><p>hexo new page “name”  # 新建页面<br>hexo g                # 生成页面<br>hexo d                # 部署<br>hexo g -d             # 生成页面并部署<br>hexo s                # 本地预览<br>hexo clean            # 清除缓存和已生成的静态文件<br>hexo help             # 帮助</p><h1 id="Git命令合集"><a href="#Git命令合集" class="headerlink" title="Git命令合集"></a>Git命令合集</h1><p>查看git对应的远程仓库地址：</p><p>git remote -v </p><p>删除关联对应的远程仓库地址：</p><p>git remote rm origin </p><p>查看是否删除成功，如果没有任何返回结果，表示OK</p><p>git remote -v</p><p>重新关联git远程仓库地址：</p><hr><p>git remote add origin <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a> </p><p>deploy:<br>type: git<br>repo: <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a><br>branch: master</p><p>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#98;&#46;&#x63;&#111;&#x6d;</a>:alantang1977&#x2F;alantang1977.git<br>  branch: main</p><hr><h2 id="安装Hexo主题"><a href="#安装Hexo主题" class="headerlink" title="安装Hexo主题"></a>安装Hexo主题</h2><hr><p>安装 next 主题<br>在git上克隆主题文件<br>git clone <a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a> themes&#x2F;next</p><p>在站点目录下的配置文件_config.yml 中找到以下部分，并修改。<br>theme: next  #选择博客主题，名字为themes中选择的主题文件夹名称</p><hr>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hexo-常用命令"><a href="#Hexo-常用命令" class="headerlink" title="Hexo 常用命令"></a>Hexo 常用命令</h1><h2 id="hexo-new-“name”-新建文章"><a href="#hexo-new-“name”-新建文章" class="headerlink" title="hexo new “name”       # 新建文章"></a>hexo new “name”       # 新建文章</h2><p>hexo new page “name”  # 新建页面<br>hexo g                # 生成页面<br>hexo d                # 部署<br>hexo g -d             # 生成页面并部署<br>hexo s                # 本地预览<br>hexo clean            # 清除缓存和已生成的静态文件<br>hexo help             # 帮助</p><h1 id="Git命令合集"><a href="#Git命令合集" class="headerlink" title="Git命令合集"></a>Git命令合集</h1><p>查看git对应的远程仓库地址：</p><p>git remote -v </p><p>删除关联对应的远程仓库地址：</p><p>git remote rm origin </p><p>查看是否删除成功，如果没有任何返回结果，表示OK</p><p>git remote -v</p><p>重新关联git远程仓库地址：</p><hr><p>git remote add origin <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a> </p><p>deploy:<br>type: git<br>repo: <a href="https://github.com/alantang1977/alantang1977.github.io.git">https://github.com/alantang1977/alantang1977.github.io.git</a><br>branch: master</p><p>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#x6f;&#109;">&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#x6f;&#109;</a>:alantang1977&#x2F;alantang1977.git<br>  branch: main</p><hr><h2 id="安装Hexo主题"><a href="#安装Hexo主题" class="headerlink" title="安装Hexo主题"></a>安装Hexo主题</h2><hr><p>安装 next 主题<br>在git上克隆主题文件<br>git clone <a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a> themes&#x2F;next</p><p>在站点目录下的配置文件_config.yml 中找到以下部分，并修改。<br>theme: next  #选择博客主题，名字为themes中选择的主题文件夹名称</p><hr>]]></content>
     
     
     

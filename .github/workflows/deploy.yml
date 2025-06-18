@@ -25,4 +25,4 @@ jobs:
         run: sleep 10
 
       - name: Test server
-        run: curl http://localhost:8000?id=165
+        run: curl http://192.168.124.2:8000?id=165

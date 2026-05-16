@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线音乐播放器 (支持M3U8)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: #f0f0f0;
+        }
+        .song-title {
+            font-size: 16px;
+            color: #555;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        input[type="range"] {
+            width: 100%;
+            margin-top: 10px;
+        }
+        video { /* 使用video标签来支持hls.js */
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>alantang在线播放器</h1>
+        <ul id="playlist"></ul>
+        <div class="controls">
+            <button onclick="playPrevious()">上一首</button>
+            <button onclick="togglePlayPause()">&#9654;</button>
+            <button onclick="playNext()">下一首</button>
+        </div>
+        <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1" oninput="setVolume(this.value)">
+        <video id="audio-player" controls></video>
+    </div>
+
+    <script>
+        const playlist = [
+            { title: '1 FranceFM', url: 'http://rfichinois96k.ice.infomaniak.ch/rfichinois-96k.mp3' },
+            { title: '2 MusicFM', url: 'https://vd2.bdstatic.com/mda-jiugyuw4xwqiwzet/sc/mda-jiugyuw4xwqiwzet.mp4' },
+            { title: '3 carouselFM', url: 'http://sk.cri.cn/887.m3u8' },
+            { title: '4 PeninsulaTV', url: 'http://live-hls-web-aje.getaj.net/AJE/01.m3u8' },
+            { title: '5 Scenic AreaTV', url: 'https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8' },
+            { title: '6 Singapore', url: 'https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8' },
+            { title: '7 Canada', url: 'http://stream.pardesitv.online/pardesi/index.m3u8' }
+        ];
+
+        let currentIndex = 0;
+        const audioPlayer = document.getElementById('audio-player');
+        const volumeControl = document.getElementById('volume-control');
+        let hls;
+
+        function loadPlaylist() {
+            const playlistElement = document.getElementById('playlist');
+            playlistElement.innerHTML = ''; // Clear existing items
+
+            playlist.forEach((item, index) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = item.title;
+                listItem.onclick = () => playTrack(index);
+                playlistElement.appendChild(listItem);
+            });
+        }
+
+        function playTrack(index) {
+            if (index >= 0 && index < playlist.length) {
+                currentIndex = index;
+                const track = playlist[currentIndex];
+
+                if (track.url.endsWith('.m3u8')) {
+                    if (typeof Hls !== 'undefined') {
+                        if (hls) {
+                            hls.destroy();
+                        }
+                        hls = new Hls();
+                        hls.loadSource(track.url);
+                        hls.attachMedia(audioPlayer);
+                        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                            audioPlayer.play();
+                        });
+                    } else if (audioPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+                        audioPlayer.src = track.url;
+                        audioPlayer.addEventListener('canplay', function() {
+                            audioPlayer.play();
+                        });
+                    }
+                } else {
+                    audioPlayer.src = track.url;
+                    audioPlayer.play();
+                }
+                updatePlayButton();
+            }
+        }
+
+        function togglePlayPause() {
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+            } else {
+                audioPlayer.pause();
+            }
+            updatePlayButton();
+        }
+
+        function updatePlayButton() {
+            const playPauseButton = document.querySelector('.controls button:nth-child(2)');
+            if (audioPlayer.paused) {
+                playPauseButton.innerHTML = '&#9654;';
+            } else {
+                playPauseButton.innerHTML = '&#10074;&#10074;';
+            }
+        }
+
+        function playNext() {
+            currentIndex = (currentIndex + 1) % playlist.length;
+            playTrack(currentIndex);
+        }
+
+        function playPrevious() {
+            currentIndex = (currentIndex - 1 + playlist.length) % playlist.length;
+            playTrack(currentIndex);
+        }
+
+        function setVolume(volume) {
+            audioPlayer.volume = volume;
+        }
+
+        // Load hls.js script if it's not already defined
+        if (typeof Hls === 'undefined') {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/npm/hls.js@latest';
+            script.onload = function() {
+                initializePlayer();
+            };
+            document.head.appendChild(script);
+        } else {
+            initializePlayer();
+        }
+
+        function initializePlayer() {
+            loadPlaylist();
+            playTrack(currentIndex);
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+

@@ -109,7 +109,7 @@
                 </div>
                 <div class="item">
                     <div class="bg" style="background-color:#28a9e0"></div>
-                    <div class="inner copy-btn" id="fantaiying" data-clipboard-text="http://www.饭太硬.com/tv"><span>饭太硬</span>
+                    <div class="inner copy-btn" id="fantaiying" data-clipboard-text="http://www.饭太硬.cc/tv"><span>饭太硬</span>
                     </div>
                 </div>
                 <div class="item">
@@ -119,32 +119,46 @@
                 </div>
                 <div class="item">
                     <div class="bg" style="background-color:#1f3cfb"></div>
-                    <div class="inner copy-btn" id="qiaoer" data-clipboard-text="https://gh-proxy.org/https://raw.githubusercontent.com/alantang1977/FGBLH/refs/heads/main/海豚影视"><span>海豚影视</span>
+                    <div class="inner copy-btn" id="qiaoer" data-clipboard-text="https://gh-proxy.org/https://raw.githubusercontent.com/alantang1977/FGBLH/refs/heads/main/海豚影视.json"><span>海豚影视</span>
                     </div>
                 </div>
                 <div class="item">
                     <div class="bg" style="background-color:#c4e00f"></div>
-                    <div class="inner copy-btn" id="junyu" data-clipboard-text="http://home.jundie.top:81/top98.json"><span>俊哥</span>
+                    <div class="inner copy-btn" id="junyu" data-clipboard-text="https://cnb.cool/fish2018/xs/-/git/raw/main/api.json"><span>潇洒</span>
                     </div>
                 </div>
                 <div class="item">
                     <div class="bg" style="background-color:#0ff9ca"></div>
-                    <div class="inner copy-btn" id="tinghao" data-clipboard-text="https://ztha.top/TVBox/thdjk.json"> <span>挺好</span>
+                    <div class="inner copy-btn" id="tinghao" data-clipboard-text="https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yifatvbox3.josn"> <span>易发</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg" style="background-color:#e084e8a8"></div>
+                    <div class="inner copy-btn" id="feimao" data-clipboard-text="https://cnb.cool/junchao.tang/jtv/-/git/raw/main/jsm.json"> <span>PG节奏熊猫</span> </div>
+                </div>
+                <div class="item">
+                    <div class="bg" style="background-color:#28a9e0"></div>
+                    <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://16151.kstore.space"><span>东篱大佬</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg" style="background-color:#e3e36b"></div>
+                    <div class="inner copy-btn" id="tangsan" data-clipboard-text="http://rihou.cc:88/demo.php"><span>vox影视</span>
                     </div>
                 </div>
                 <div class="item">
                     <div class="bg" style="background-color:#d50cf0"></div>
-                    <div class="inner copy-btn" id="fuma" data-clipboard-text="http://fmys.top/fmys.json"><span>驸马</span>
+                    <div class="inner copy-btn" id="fuma" data-clipboard-text="http://mytv6688.xyz/aowu/config.webp"><span>嗷呜</span>
                     </div>
                 </div>
                 <div class="item">
                     <div class="bg" style="background-color:#680fe4"></div>
-                    <div class="inner copy-btn" id="ouge" data-clipboard-text="http://tv.nxog.top/m"><span>欧歌4K</span>
+                    <div class="inner copy-btn" id="ouge" data-clipboard-text="https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2"><span>裤佬</span>
                     </div>
                 </div>
                 <div class="item">
                     <div class="bg" style="background-color:#5d4106"></div>
-                    <div class="inner copy-btn" id="xiaohezi" data-clipboard-text="http://xhztv.top/xhz/"><span>小盒子</span>
+                    <div class="inner copy-btn" id="xiaohezi" data-clipboard-text="http://我不是.摸鱼儿.top"><span>摸鱼</span>
                     </div>
                 </div>
             </div>
@@ -263,11 +277,11 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://tv.iuai.ltd" target="_blank">
+                <a href="https://moontv.tanglitv.de5.net" target="_blank">
                     <div class="item">
                         <div class="avatar"> <img src="img/gate(10).png"> </div>
                         <div class="inner">
-                            <h5>MOTV</h5>
+                            <h5>MoonTVPlus</h5>
                             <p>最新最全的影视剧，综艺，动漫等(mima:motv)</p>
                         </div>
                     </div>
@@ -380,6 +394,102 @@
         "react": { "opacityDefault": 0.7, "opacityOnHover": 0.2 }
     });
 </script>
+
+<!-- ========== 新增：用户交互触发播放器自动播放 ========== -->
+<script>
+(function() {
+    // 监听用户首次交互（点击、触摸、按键），自动触发明月浩空播放器播放
+    var playBtn = null;
+    var playerReady = false;
+
+    // 查找播放按钮（兼容明月浩空常见的 .aplayer-play 等选择器）
+    function findPlayBtn() {
+        return document.querySelector('.aplayer-play') ||
+               document.querySelector('.myhk-play') ||
+               document.querySelector('button[title="播放"]') ||
+               document.querySelector('#myhk .play-btn');
+    }
+
+    // 执行播放操作
+    function doPlay() {
+        if (playBtn) {
+            playBtn.click();
+            console.log('✅ 已自动触发播放器播放');
+        } else {
+            // 备选方案：直接查找所有 audio 元素并尝试播放
+            var audios = document.querySelectorAll('audio');
+            if (audios.length) {
+                audios[0].play().then(function() {
+                    console.log('✅ 已通过audio.play()启动播放');
+                }).catch(function(e) {
+                    console.warn('播放失败:', e);
+                });
+            }
+        }
+    }
+
+    // 监听播放按钮插入 DOM
+    var observer = new MutationObserver(function() {
+        if (!playBtn) {
+            var btn = findPlayBtn();
+            if (btn) {
+                playBtn = btn;
+                playerReady = true;
+                observer.disconnect();
+            }
+        }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    // load 后再检查一次，以防按钮已存在
+    window.addEventListener('load', function() {
+        if (!playBtn) {
+            playBtn = findPlayBtn();
+            if (playBtn) playerReady = true;
+        }
+    });
+
+    // 首次交互事件处理
+    var interacted = false;
+    function handleInteraction() {
+        if (interacted) return;
+        interacted = true;
+        // 移除所有交互监听
+        ['click', 'touchstart', 'keydown'].forEach(function(evt) {
+            document.body.removeEventListener(evt, handleInteraction);
+        });
+
+        console.log('👆 检测到用户交互，准备启动音乐');
+        if (playerReady) {
+            doPlay();
+        } else {
+            // 播放器还没完全加载，轮询等待
+            var attempts = 0;
+            var timer = setInterval(function() {
+                if (attempts > 20) { // 最多等10秒
+                    clearInterval(timer);
+                    console.warn('⏰ 等待播放器超时');
+                    return;
+                }
+                var btn = findPlayBtn();
+                if (btn) {
+                    playBtn = btn;
+                    playerReady = true;
+                    doPlay();
+                    clearInterval(timer);
+                }
+                attempts++;
+            }, 500);
+        }
+    }
+
+    // 绑定交互事件
+    document.body.addEventListener('click', handleInteraction);
+    document.body.addEventListener('touchstart', handleInteraction);
+    document.body.addEventListener('keydown', handleInteraction);
+})();
+</script>
+<!-- ========== 结束自动播放触发 ========== -->
 
 </body>
 
